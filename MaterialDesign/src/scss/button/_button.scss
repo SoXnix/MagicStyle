@@ -1,0 +1,47 @@
+button {
+  position: relative;
+  display: block;
+  width: 13em;
+  height: 3em;
+  margin: 2em;
+  border: none;
+  outline: none;
+  letter-spacing: .2em;
+  font-weight: bold;
+  background: #dfdfdf;
+  cursor: pointer;
+  overflow: hidden;
+  user-select: none;
+  border-radius: 2px;
+}
+button:active{
+      box-shadow: 0 10px 20px rgba(0,0,0,.19),0 6px 6px rgba(0,0,0,.23);
+}
+button:nth-child(2) {
+  color: #fff;
+  background: #4285f4;
+}
+button:nth-child(3) {
+  color: #fff;
+  background: #00bad2;
+}
+button:nth-child(4) {
+  color: #fff;
+  background: #ff8a80;
+}
+.ripple {
+  position: absolute;
+  background: rgba(0,0,0,.15);
+  border-radius: 100%;
+  transform: scale(0);
+  /*pointer-events: none;*/
+}
+.ripple.show {
+  animation: ripple .75s;
+}
+@keyframes ripple {
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
