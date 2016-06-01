@@ -20,3 +20,11 @@ $container-sm:               570px !default;
 $container-md:               740px !default;
 $container-lg:               960px !default;
 $container-xl:               1170px !default;
+
+// ============================================================================
+// Button Class
+// ============================================================================
+
+$button-class-name:".button";
+$button-font-color-default:#000;
+$button-background-color-default:rgba(0,0,0,0);

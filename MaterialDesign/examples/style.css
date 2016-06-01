@@ -1,4 +1,17 @@
 .container{
-  margin-right: auto;
-  margin-left: auto;
+  margin-top:100px;
+}
+.container h1{
+  text-align:center;
+}
+.row{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.panel{
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 0;
+  background-color: #FFF;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.16),0 0 2px 0 rgba(0,0,0,.12);
 }
