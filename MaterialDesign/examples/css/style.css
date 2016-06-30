@@ -1,8 +1,6 @@
-.container{
-  margin-top:100px;
-}
-.container h1{
+.title{
   text-align:center;
+  margin:50px 0px;
 }
 .row{
   margin-top:10px;
