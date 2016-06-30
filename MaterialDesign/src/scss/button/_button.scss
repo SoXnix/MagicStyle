@@ -1,6 +1,6 @@
 @import "button/button-base";
 @import "button/button-color";
-
+@import "button/button-outline";
 
 .ripple {
   position: absolute;
@@ -10,7 +10,8 @@
   pointer-events: none;
 }
 .ripple.show {
-  animation: ripple .75s;
+  animation: ripple 2s;
+  animation-timing-function: cubic-bezier(0.23, 1, 0.23, 1);
 }
 @keyframes ripple {
   to {

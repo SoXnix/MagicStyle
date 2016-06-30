@@ -9,9 +9,12 @@
   margin-bottom:10px;
 }
 .panel{
-  padding: 15px;
+  padding: 24px;
   margin-bottom: 20px;
   border-radius: 0;
   background-color: #FFF;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.16),0 0 2px 0 rgba(0,0,0,.12);
+}
+.icon-button-list{
+
 }
