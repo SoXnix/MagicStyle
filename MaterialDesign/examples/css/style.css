@@ -16,3 +16,51 @@
 .icon-button-list{
 
 }
+
+.card_container{
+  position:relative;
+  height:300px;
+}
+
+.card{
+  border-radius:8px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.16),0 0 2px 0 rgba(0,0,0,.12);
+  padding: 24px;
+
+  position:absolute;
+
+  width:76px;
+  height:200px;
+  background:white;
+}
+
+.card:nth-child(1){
+  z-index:1;
+}
+.card:nth-child(2){
+  left:10px;
+  top:10px;
+  z-index:2;
+
+}
+.card:nth-child(3){
+  z-index:3;
+  left:20px;
+  top:20px;
+}
+.card:nth-child(4){
+  z-index:4;
+  left:30px;
+  top:30px;
+}
+
+.card.show {
+  animation: cardT 2s;
+  animation-timing-function: cubic-bezier(0.23, 1, 0.23, 1);
+}
+@keyframes cardT {
+  to {
+    box-shadow: 0 12px 12px 0 rgba(0,0,0,.16),0 0 12px 0 rgba(0,0,0,.12);
+    left:130px;
+  }
+}
